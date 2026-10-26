@@ -1,0 +1,71 @@
+/* Reset default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the overall page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Style the main application */
+#root {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Style headings */
+h1, h2 {
+    margin-bottom: 16px;
+}
+
+/* Style input fields */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Style buttons */
+button {
+    padding: 10px 14px;
+    margin: 4px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+/* Change button color when hovering */
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Remove default list bullets */
+ul {
+    list-style: none;
+    margin-top: 16px;
+}
+
+/* Style each task row */
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Add spacing between statistics */
+p {
+    margin: 8px 0;
+}
